@@ -1,5 +1,5 @@
 {% set name = "structout" %}
-{% set version = "0.1.44" %}
+{% set version = "0.1.46" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/structout-{{ version }}.tar.gz
-  sha256: 5cbc14853b4bd3f3f2ae0bd65f74889102a20b05e28e305eeae40561dca832f9
+  sha256: 104f27454d235d3ef67629590085c26c9f47a8a5bfe310eb23c2632b03763daf
 
 build:
   number: 0
